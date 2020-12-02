@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_tentang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/toolbar_text_tentang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/josefin_sans_bold"
+            android:text="TENTANG"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/logo_schola_tentang"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/logo_sampul" />
+
+            <TextView
+                android:id="@+id/textView_deskripsi_schola_tentang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/josefin_sans_regular"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/deskripsi_schola"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/more_information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/josefin_sans_bold"
+                android:text="More Information"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/email_address_schola"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/josefin_sans_regular"
+                android:text="@string/email_address_schola"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

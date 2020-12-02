@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "335796992347",
+    "firebase_url": "https://schola-39e64.firebaseio.com",
+    "project_id": "schola-39e64",
+    "storage_bucket": "schola-39e64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335796992347:android:e7e4c7d80f9867ed23827e",
+        "android_client_info": {
+          "package_name": "com.example.scholaedu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335796992347-8tpqd9jl9p4fjdvjno3uei9v64eph37j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.scholaedu",
+            "certificate_hash": "097e5ddf2529be915f806b9b52f5e8af8c321c4f"
+          }
+        },
+        {
+          "client_id": "335796992347-1rsp8dl6rnrfrthnfo5icq0qo96dd0fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRDYX6KVk7pVJbwjxevitzGf7CMGKSK_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335796992347-1rsp8dl6rnrfrthnfo5icq0qo96dd0fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

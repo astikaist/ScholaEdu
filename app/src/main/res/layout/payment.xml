@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_payment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbar_text_pembayaran"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/josefin_sans_bold"
+            android:gravity="center"
+            android:text="PEMBAYARAN"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/profile_at_payment"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_profile" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp">
+
+                <TextView
+                    android:id="@+id/text_payment_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/josefin_sans_bold"
+                    android:text="Tutor's Name"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/text_payment_harga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/josefin_sans_regular"
+                    android:text="Harga"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/text_payment_keahlian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/josefin_sans_regular"
+                    android:text="Mata Pelajaran yang Diampu"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/text_payment_jenjang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/josefin_sans_regular"
+                    android:text="Jenjang"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout12"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp">
+
+                <ImageView
+                    android:id="@+id/ic_rate"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_rate" />
+
+                <TextView
+                    android:id="@+id/text_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/josefin_sans_regular"
+                    android:text="rate"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/ic_experience"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="20dp"
+                    app:srcCompat="@drawable/ic_experience" />
+
+                <TextView
+                    android:id="@+id/text_experience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/josefin_sans_regular"
+                    android:paddingLeft="10dp"
+                    android:text="experience"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_payment_anggota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@android:drawable/btn_dropdown" />
+
+            <Spinner
+                android:id="@+id/spinner_payment_metode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/btn_dropdown" />
+
+            <Button
+                android:id="@+id/button_payment_pembayaran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/josefin_sans_bold"
+                android:text="Bayar"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

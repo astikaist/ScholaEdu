@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ScholaEdu</string>
+    <string name="title_activity_homescreen">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_activity_homescreen_active">MainActivity</string>
+    <string name="title_activity_main_home">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="ic_find_mentor">Find Mentor</string>
+    <string name="ic_group_discussion">Group Discussion</string>
+    <string name="ic_profile">Profile</string>
+    <string name="deskripsi_schola">SCHOLA adalah sebuah media yang mempertemukan pembelajar dan pengajar yang bisa dilakukan dimana pun dan kapan pun secara real-time serta bisa mempertemukannya secara luring.</string>
+    <string name="find_mentor_question">Bagaimana cara mencari mentor pada aplikasi SCHOLA?</string>
+    <string name="find_mentor_answer">Masuk ke aplikasi SCHOLA dengan akun gmail Anda. Jika berhasil login, maka akan diarahkan ke menu FIND MENTOR. Selanjutnya masukkan tipe materi yang disediakan, yaitu akademik dan minat bakat. Jika memilih tipe materi akademik, masukkan filter jenjang, kelas, pelajaran , dan metode agar mendapatkan mentor sesuai keinginan. Jika memilih tipe materi minat bakat, masukkan filter model belajar dan kategori.</string>
+    <string name="apply_for_tutor_question">Bagaimana cara mendaftar sebagai mentor pada aplikasi SCHOLA?</string>
+    <string name="apply_for_tutor_answer">Aplikasi SCHOLA membuka lowongan sebagai tutor. Anda dapat mendaftar sebagai tutor dengan cara klik button APPLY FOR TUTOR. Kemudian, Anda akan di arahkan ke google form. Isi data pada google form sesuai yang diminta, yaitu alamat email, nama, nomor telepon, mata pelajaran yang akan diampu, dan cover letter (resume). SCHOLA akan mengirimkan jawaban atas lamaran sebagai tutor melalui email.</string>
+    <string name="email_address_schola">Email: scholaeducare@gmail.com</string>
+</resources>

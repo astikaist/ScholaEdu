@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scholaedu" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".Homescreen" />
+        <activity android:name=".activity_home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".tentang" />
+        <activity android:name=".bantuan" />
+        <activity android:name=".pengaturan" />
+        <activity android:name=".resultmentor" />
+        <activity android:name=".result_mentor_minat"/>
+        <activity android:name=".pembayaran"/>
+        <activity android:name=".NotFound"/>
+        <activity android:name=".confirmed"/>
+        <activity android:name=".NotFound_backup"/>
+    </application>
+
+</manifest>
