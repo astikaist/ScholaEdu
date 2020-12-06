@@ -13,33 +13,6 @@
         android:layout_marginTop="10dp">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:orientation="vertical"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp">
-
-            <TextView
-                android:id="@+id/text_model_belajar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/josefin_sans_regular"
-                android:text="Model Belajar"
-                android:textAlignment="center"
-                android:textColor="#000"
-                android:textSize="18dp" />
-
-            <Spinner
-                android:id="@+id/spinner_model_belajar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:drawable/btn_dropdown"
-                android:spinnerMode="dropdown" />
-
-        </LinearLayout>
-
-        <LinearLayout
             android:id="@+id/linearLayout6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -64,6 +37,33 @@
                 android:layout_height="wrap_content"
                 android:background="@android:drawable/btn_dropdown"
                 android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:id="@+id/text_model_belajar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/josefin_sans_regular"
+                android:text="Model Belajar"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/spinner_model_belajar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
         </LinearLayout>
 
         <LinearLayout
