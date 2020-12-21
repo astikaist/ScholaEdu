@@ -24,7 +24,7 @@
                 android:id="@+id/textView2_jenjang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/josefin_sans_regular"
+                android:fontFamily="@font/josefin_sans_bold"
                 android:text="Jenjang"
                 android:textAlignment="center"
                 android:textColor="#000"
@@ -34,7 +34,10 @@
                 android:id="@+id/spinner0_jenjang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:drawable/btn_dropdown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_spinner_background"
+                android:textAlignment="gravity"
                 android:spinnerMode="dropdown" />
 
         </LinearLayout>
@@ -52,7 +55,7 @@
                 android:id="@+id/textView3_kelas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/josefin_sans_regular"
+                android:fontFamily="@font/josefin_sans_bold"
                 android:text="Kelas"
                 android:textAlignment="center"
                 android:textColor="#000"
@@ -62,7 +65,10 @@
                 android:id="@+id/spinner1_kelas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:drawable/btn_dropdown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_spinner_background"
+                android:textAlignment="gravity"
                 android:spinnerMode="dropdown" />
 
         </LinearLayout>
@@ -80,7 +86,7 @@
                 android:id="@+id/textView10_pelajaran"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/josefin_sans_regular"
+                android:fontFamily="@font/josefin_sans_bold"
                 android:text="Pelajaran"
                 android:textAlignment="center"
                 android:textColor="#000"
@@ -90,7 +96,10 @@
                 android:id="@+id/spinner_pembelajaran"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:drawable/btn_dropdown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_spinner_background"
+                android:textAlignment="gravity"
                 android:spinnerMode="dropdown" />
 
         </LinearLayout>
@@ -108,7 +117,7 @@
                 android:id="@+id/textView7_metode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/josefin_sans_regular"
+                android:fontFamily="@font/josefin_sans_bold"
                 android:text="Metode"
                 android:textAlignment="center"
                 android:textColor="#000"
@@ -118,7 +127,10 @@
                 android:id="@+id/spinner2_metode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:drawable/btn_dropdown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_spinner_background"
+                android:textAlignment="gravity"
                 android:spinnerMode="dropdown" />
 
         </LinearLayout>
@@ -136,7 +148,7 @@
                 android:id="@+id/text_lokasi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/josefin_sans_regular"
+                android:fontFamily="@font/josefin_sans_bold"
                 android:text="Lokasi"
                 android:textAlignment="center"
                 android:textColor="#000"
@@ -147,7 +159,10 @@
                 android:id="@+id/spinner_lokasi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:drawable/btn_dropdown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_spinner_background"
+                android:textAlignment="gravity"
                 android:spinnerMode="dropdown"
                 android:visibility="invisible" />
 
@@ -162,6 +177,11 @@
             android:backgroundTint="@color/colorPrimary"
             android:fontFamily="@font/josefin_sans_bold"
             android:text="Find Mentor"
+            android:background="@drawable/ic_button_background"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="12dp"
+            android:textSize="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

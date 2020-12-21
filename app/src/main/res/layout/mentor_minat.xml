@@ -25,7 +25,7 @@
                 android:id="@+id/kategori"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/josefin_sans_regular"
+                android:fontFamily="@font/josefin_sans_bold"
                 android:text="Kategori"
                 android:textAlignment="center"
                 android:textColor="#000"
@@ -35,7 +35,10 @@
                 android:id="@+id/spinner_kategori"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:drawable/btn_dropdown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_spinner_background"
+                android:textAlignment="gravity"
                 android:spinnerMode="dropdown" />
         </LinearLayout>
 
@@ -51,7 +54,7 @@
                 android:id="@+id/text_model_belajar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/josefin_sans_regular"
+                android:fontFamily="@font/josefin_sans_bold"
                 android:text="Model Belajar"
                 android:textAlignment="center"
                 android:textColor="#000"
@@ -61,7 +64,10 @@
                 android:id="@+id/spinner_model_belajar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:drawable/btn_dropdown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_spinner_background"
+                android:textAlignment="gravity"
                 android:spinnerMode="dropdown" />
 
         </LinearLayout>
@@ -79,7 +85,7 @@
                 android:id="@+id/lokasi_minat_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/josefin_sans_regular"
+                android:fontFamily="@font/josefin_sans_bold"
                 android:text="Lokasi"
                 android:textAlignment="center"
                 android:textColor="#000"
@@ -90,7 +96,10 @@
                 android:id="@+id/spinner_lokasi_minat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:drawable/btn_dropdown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_spinner_background"
+                android:textAlignment="gravity"
                 android:spinnerMode="dropdown"
                 android:visibility="invisible" />
         </LinearLayout>
@@ -103,7 +112,12 @@
             android:layout_marginBottom="50dp"
             android:backgroundTint="@color/colorPrimary"
             android:fontFamily="@font/josefin_sans_bold"
-            android:text="Find Mentor" />
+            android:text="Find Mentor"
+            android:background="@drawable/ic_button_background"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="12dp"
+            android:textSize="10dp"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -96,69 +96,97 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/linearLayout12"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="10dp"
-                android:gravity="center_horizontal"
-                android:orientation="horizontal"
-                android:paddingLeft="30dp"
-                android:paddingRight="30dp">
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linearLayout12"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:paddingLeft="30dp"-->
+<!--                android:paddingRight="30dp">-->
 
-                <ImageView
-                    android:id="@+id/ic_rate"
-                    android:layout_width="50dp"
-                    android:layout_height="30dp"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/ic_rate" />
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_rate"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="20dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    app:srcCompat="@drawable/ic_rate" />-->
 
-                <TextView
-                    android:id="@+id/text_rate"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:fontFamily="@font/josefin_sans_regular"
-                    android:text="rate"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="16dp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/text_rate"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:fontFamily="@font/josefin_sans_regular"-->
+<!--                    android:text="rate"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:textSize="16dp" />-->
 
-                <ImageView
-                    android:id="@+id/ic_experience"
-                    android:layout_width="50dp"
-                    android:layout_height="30dp"
-                    android:layout_gravity="center"
-                    android:paddingLeft="20dp"
-                    app:srcCompat="@drawable/ic_experience" />
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_experience"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="20dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginStart="5dp"-->
+<!--                    app:srcCompat="@drawable/ic_experience" />-->
 
-                <TextView
-                    android:id="@+id/text_experience"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:fontFamily="@font/josefin_sans_regular"
-                    android:paddingLeft="10dp"
-                    android:text="experience"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="16dp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/text_experience"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:fontFamily="@font/josefin_sans_regular"-->
+<!--                    android:text="experience"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:textSize="16dp" />-->
 
-            </LinearLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/ic_comments"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="20dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    app:srcCompat="@drawable/ic_comments" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/text_comments"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:fontFamily="@font/josefin_sans_regular"-->
+<!--                    android:text="comments"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:textSize="16dp" />-->
+
+
+<!--            </LinearLayout>-->
 
             <Spinner
                 android:id="@+id/spinner_payment_anggota"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:background="@android:drawable/btn_dropdown" />
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_spinner_background"
+                android:textAlignment="gravity"/>
 
             <Spinner
                 android:id="@+id/spinner_payment_metode"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/btn_dropdown" />
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/ic_spinner_background"
+                android:textAlignment="gravity"/>
 
             <Button
                 android:id="@+id/button_payment_pembayaran"
@@ -167,6 +195,11 @@
                 android:layout_marginTop="40dp"
                 android:fontFamily="@font/josefin_sans_bold"
                 android:text="Bayar"
+                android:background="@drawable/ic_button_background"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="12dp"
+                android:textSize="10dp"
                 android:layout_gravity="center_horizontal"/>
         </LinearLayout>
     </ScrollView>
