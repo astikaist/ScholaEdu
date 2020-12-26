@@ -36,19 +36,45 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:orientation="vertical" >
 
-            <TextView
-                android:id="@+id/textView"
+            <Button
+                android:id="@+id/buttonUpdateFoto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/josefin_sans_regular"
-                android:layout_marginTop="10dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:text="Pengaturan Text"
+                android:backgroundTint="@color/fui_transparent"
                 android:textColor="#000"
-                android:textSize="18dp" />
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/josefin_sans_semi_bold"
+                android:textSize="16dp"
+                android:text="Update Foto"
+                android:gravity="left"/>
+            <Button
+                android:id="@+id/buttonNotifPerangkat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/fui_transparent"
+                android:textColor="#000"
+                android:textAllCaps="false"
+                android:fontFamily="@font/josefin_sans_semi_bold"
+                android:textSize="16dp"
+                android:text="Notifikasi Perangkat"
+                android:gravity="left"/>
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/josefin_sans_semi_bold"
+                android:textSize="16dp"
+                android:text="Kirim Notifikasi Email" />
         </LinearLayout>
     </ScrollView>
 
