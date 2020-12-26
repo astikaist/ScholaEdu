@@ -19,7 +19,7 @@
             android:orientation="vertical">
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recycler_view"
+                android:id="@+id/recycler_view_komentar"
                 android:layout_width="match_parent"
                 android:layout_height="647dp"
                 android:layout_marginTop="20dp"
@@ -29,7 +29,7 @@
     </ScrollView>
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar_hasil_pencarian_mentor"
+        android:id="@+id/toolbar_komentar_mentor"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/colorPrimary"
@@ -38,11 +38,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/toolbar_text_pencarian_mentor"
+            android:id="@+id/toolbar_text_komentar_mentor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/josefin_sans_bold"
-            android:text="HASIL PENCARIAN"
+            android:text="KOMENTAR"
             android:gravity="center"
             android:textColor="@android:color/white"
             android:textSize="16dp"
